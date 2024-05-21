@@ -27,8 +27,8 @@
 // ===========================
 // Enter your WiFi credentials
 // ===========================
-const char *ssid = "Magni007_2.4G_Normal";
-const char *password = "SandyMarco0301";
+const char *ssid = "*********";
+const char *password = "*******";
 
 // ===========================
 // MQTT Broker information
