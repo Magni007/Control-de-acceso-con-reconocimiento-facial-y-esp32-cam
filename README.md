@@ -4,7 +4,7 @@
 Se utilizará la biblioteca Deepface
 https://github.com/serengil/deepface/tree/master
 
-Así como el repositorio del taller
+Clonar el repositorio del taller
 https://github.com/codigo-iot/apertura-puertas-reconocimiento-facial
 
 El presente proyecto encuentra una cara entre una base de datos de rostros, así como el reconocimiento facial en tiempo real a través de la cámara del ESP32-CAM
@@ -23,8 +23,11 @@ El presente proyecto encuentra una cara entre una base de datos de rostros, así
     * sudo npm install -g --unsafe-perm node-red
     * node-red (comando para arrancar node-red)
 
-2. Instalar las bibliotecas de python
-    * sudo pip install deepface
+2. Instalar Python y las siguientes bibliotecas
+    * sudo apt update
+    * sudo apt install python3
+    * sudo apt install python3-pip
+    
     * sudo pip install pandas
     * sudo pip install paho-mqtt
 
@@ -42,6 +45,13 @@ El presente proyecto encuentra una cara entre una base de datos de rostros, así
     * sudo apt-get install mosquitto-clients -y
     * sudo apt clean
     * sudo systemctl enable mosquitto (para arrancar MQTT automáticamente al iniciar Ubuntu)
+
+5. Instalar Deepface
+    * sudo pip install deepface
+
+6. Configurar VSC para trabajar con Python3
+    * Ir a la seccion de extensiones
+    * Buscar la extensión llamada Python (microsoft)
 
 ### Requisitos para el reconocimiento facial
 1. Base de datos de rostros. (Se requiere un directorio con los rostros separados por carpetas)
