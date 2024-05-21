@@ -15,6 +15,7 @@ El presente proyecto encuentra una cara entre una base de datos de rostros, así
 3. Cable USB a mini USB (menor a 30 cm para evitar caída de voltaje)
 4. Módulo Relay SRD-05VDC-SL-C
 5. Sensor de presencia LD2410B
+6. Cerradura de Solenoide de 12V de CD
 
 ### Software:
 1. Instalar node-red de forma local
