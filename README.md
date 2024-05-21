@@ -11,30 +11,30 @@ El presente proyecto encuentra una cara entre una base de datos de rostros, así
 
 ### Requisitos:
 1. Instalar node-red de forma local
-    a. curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash - &&\ sudo apt-get install -y nodejs
-    b. sudo apt-get install -y build-essential
-    c. sudo npm install -g --unsafe-perm node-red
-    d. node-red (comando para arrancar node-red)
+    * curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash - &&\ sudo apt-get install -y nodejs
+    * sudo apt-get install -y build-essential
+    * sudo npm install -g --unsafe-perm node-red
+    * node-red (comando para arrancar node-red)
 
 2. Instalar las bibliotecas de python
-    a. sudo pip install deepface
-    b. sudo pip install pandas
-    c. sudo pip install paho-mqtt
+    * sudo pip install deepface
+    * sudo pip install pandas
+    * sudo pip install paho-mqtt
 
 3. Instalar MySQL de forma local
-    a. sudo apt update
-    b. sudo apt install mysql-server
-    c. sudo mysql (comando para arrancar MySQL)
+    * sudo apt update
+    * sudo apt install mysql-server
+    * sudo mysql (comando para arrancar MySQL)
 
 4. Instalar MQTT de forma local
-    a. lsb_release -a
-    b. sudo apt-add-repository ppa:mosquitto-dev/mosquitto-ppa
-    c. sudo apt-get update
-    d. apt-get update
-    e. sudo apt-get install mosquitto -y
-    f. sudo apt-get install mosquitto-clients -y
-    g. sudo apt clean
-    f. sudo systemctl enable mosquitto (para arrancar MQTT automáticamente al iniciar Ubuntu)
+    * lsb_release -a
+    * sudo apt-add-repository ppa:mosquitto-dev/mosquitto-ppa
+    * sudo apt-get update
+    * apt-get update
+    * sudo apt-get install mosquitto -y
+    * sudo apt-get install mosquitto-clients -y
+    * sudo apt clean
+    * sudo systemctl enable mosquitto (para arrancar MQTT automáticamente al iniciar Ubuntu)
 
 ### Requisitos para el reconocimiento facial
 1. Base de datos de rostros. (Se requiere un directorio con los rostros separados por carpetas)
