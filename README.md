@@ -9,7 +9,14 @@ https://github.com/codigo-iot/apertura-puertas-reconocimiento-facial
 
 El presente proyecto encuentra una cara entre una base de datos de rostros, así como el reconocimiento facial en tiempo real a través de la cámara del ESP32-CAM
 
-### Requisitos:
+### Hardware:
+1. ESP32-CAM
+2. FTDI232
+3. Cable USB a mini USB (menor a 30 cm para evitar caída de voltaje)
+4. Módulo Relay SRD-05VDC-SL-C
+5. Sensor de presencia LD2410B
+
+### Software:
 1. Instalar node-red de forma local
     * curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash - &&\ sudo apt-get install -y nodejs
     * sudo apt-get install -y build-essential
