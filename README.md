@@ -53,6 +53,9 @@ El presente proyecto encuentra una cara entre una base de datos de rostros, así
     * Ir a la seccion de extensiones
     * Buscar la extensión llamada Python (microsoft)
 
+7. Opcionalmente se puede trabajar con un broker público
+    * broker.hivemq.com
+
 ### Requisitos para el reconocimiento facial
 1. Base de datos de rostros. (Se requiere un directorio con los rostros separados por carpetas)
 2. Borrar el archivo pkl. (Sólo al momento de agregar una imágen o persona nueva).
