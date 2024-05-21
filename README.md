@@ -9,7 +9,7 @@ https://github.com/codigo-iot/apertura-puertas-reconocimiento-facial
 
 El presente proyecto encuentra una cara entre una base de datos de rostros, así como el reconocimiento facial en tiempo real a través de la cámara del ESP32-CAM
 
-###Requisitos:
+### Requisitos:
 1. Instalar node-red de forma local
     a. curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash - &&\ sudo apt-get install -y nodejs
     b. sudo apt-get install -y build-essential
@@ -36,7 +36,7 @@ El presente proyecto encuentra una cara entre una base de datos de rostros, así
     g. sudo apt clean
     f. sudo systemctl enable mosquitto (para arrancar MQTT automáticamente al iniciar Ubuntu)
 
-###Requisitos para el reconocimiento facial
+### Requisitos para el reconocimiento facial
 1. Base de datos de rostros. (Se requiere un directorio con los rostros separados por carpetas)
 2. Borrar el archivo pkl. (Sólo al momento de agregar una imágen o persona nueva).
 3. Agregar una carpeta a la base de datos de rostros con fotos personales
